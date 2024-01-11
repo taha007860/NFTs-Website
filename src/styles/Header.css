@@ -165,7 +165,7 @@
     }
     .language {
         position: relative;
-        left: 40px;
+        left: 37px;
         min-width: 49px;
     }
     .rotated-icon {
@@ -175,7 +175,7 @@
     }
     .right-side {
         position: relative;
-        right: 25px;
+        right: 22.5px;
     }
   }
   @media screen and (min-width: 541px) and (max-width: 769px){
