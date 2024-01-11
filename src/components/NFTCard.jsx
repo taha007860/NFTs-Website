@@ -5,7 +5,7 @@ import heart from '../assets/images/love.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName, creator, artist, likes, profile, price, bid, imageSrc2, videoSrc2 }) => {
+const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName, creator, artist, likes, profile, price, bid, imageSrc2, videoSrc2, profile2 }) => {
   const imageSrc = `/assets/${imageSrc1}`;
   const videoSrcPath = `/assets/${videoSrc}`;
   const profilePath = `/assets/${profile}`;
@@ -33,7 +33,7 @@ const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName,
         <button className={`category ${contentType === 'image' ? 'category-image' : 'category-video'}`}>{category}</button>
         <h3 className={`${contentType === 'image' ? 'h3-image' : 'h3-video'}`}>{title}</h3>
         <div className={`creator-info ${contentType === 'image' ? 'info-image' : 'info-video'}`}>
-          <img src={new URL(`../assets/images/${profile}`, import.meta.url).toString()} alt="Profile" />
+          <img src={new URL(`../assets/images/${profile2}`, import.meta.url).toString()} alt="Profile" />
           <p id="owner">Owner</p>
           <span>{ownerName}</span>
         </div>
