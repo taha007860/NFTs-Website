@@ -32,6 +32,12 @@
   #logo {
     position: relative;
     left: 60px;
+    width: 100px;
+    height: 100px;
+  }
+  #logo .logo img {
+    width: 100px;
+    height: 100px;
   }
   
   .quick-links,
