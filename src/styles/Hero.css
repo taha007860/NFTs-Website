@@ -169,7 +169,7 @@
 @media screen and (min-width: 361px) and (max-width: 376px) {
     .scroll {
       position: relative;
-      top: 5px;
+      top: 0px;
       left: 35%;
     }
     .image-container {
