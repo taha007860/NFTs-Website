@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+.explore-nfts-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #231937;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: white;
+  margin-top: -20px;
+  background-image: linear-gradient(to bottom right, #1E345A 0%, #231937 30%, #231937 60%, #231937 70%, #1E345A 100%);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+  
+  .nft-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+  }
+  @media screen and (min-width: 769px) and (max-width: 819px) {
+    .explore-nfts-page {
+        height: 100%;
+    }
+  }
+  @media screen and (min-width: 820px) and (max-width: 911px) {
+    .explore-nfts-page {
+        height: 100%;
+    }
+  }
+  @media screen and (min-width: 912px) and (max-width: 1025px) {
+    .explore-nfts-page {
+        height: 100%;
+    }
+  }
+  #view {
+    background-color: #231937;
+    border: 1px solid #00C3F9;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 542px) and (max-width: 768px) {
+    .explore-nfts-page {
+      height: 100%;
+  }
+  }

@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+.nft-details-container {
+    display: flex;
+    background-color: #231937;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .nft-image-container {
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .nft-video-controller {
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  
+  .nft-image-container img {
+    width: 100%;
+    height: 530px;
+    border-radius: 20px;
+  }
+  .nft-video-controller video {
+    width: 100%;
+    height: 590px;
+    margin-left: 20px;
+  }
+  
+  .nft-info-container {
+    width: 30%;
+    padding: 20px;
+    height: 600px;
+  }
+  
+  .nft-card-detail {
+    border: 1px solid #ccc;
+    min-height: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 20px;
+    background-color: #1E142D;
+    font-family: 'Roboto', Arial, sans-serif;
+    max-height: 370px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  label {
+    position: relative;
+    top: -85px;
+    color: #ccc;
+  }
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px; 
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px; 
+    width: 20px;
+    background-color: #00C3F9; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #buy {
+    position: relative;
+    top: -70px;
+    width: 100%;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + .checkmark:after {
+    display: block;
+  }
+  
+  .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white; 
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  h2 {
+    position: relative;
+    top: -20px;
+    color: white;
+  }
+  .category-detail {
+    background-color: #3E2F5C;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    margin: 5px 0;
+    position: relative;
+    left: 35px;
+    top: -28px;
+    left: 0px;
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: column;
+    position: relative;
+    right: 110px;
+    top: -20px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .profile span {
+    position: relative;
+    top: -30px;
+    left: 10px;
+    color: #ccc;
+  }
+  .profile #name1 {
+    position: relative;
+    top: -30px;
+    left: 80px;
+    color: white;
+  }
+  #creator {
+    position: relative;
+    top: -15px;
+  }
+  #spanCreator {
+    position: relative;
+    top: -45px;
+  }
+  .profile #name2 {
+    position: relative;
+    left: 55px;
+    top: -45px;
+    color: white;
+  }
+  #artist {
+    position: relative;
+    right: 8px;
+    top: -30px;
+  }
+  #spanArtist {
+    position: relative;
+    top: -60px;
+    left: 5px;
+  }
+  #name3 {
+    position: relative;
+    left: 60px;
+    top: -60px;
+    color: white;
+  }
+  #icon {
+    color: #00C3F9;
+  }
+  .interaction-icons span {
+    color: white;
+  }
+  
+  .interaction-icons {
+    margin-bottom: 10px;
+    position: relative;
+    top: -70px;
+  }
+  
+  .interaction-icons span {
+    margin-right: 10px;
+  }
+  .interaction-icons span span {
+    position: relative;
+    top: -5px;
+    left: 5px;
+  }
+  .prices1 {
+    position: relative;
+    top: -90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .prices2 {
+    position: relative;
+    top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .price-detail {
+    font-weight: bold;
+    margin: 10px 0;
+    position: relative;
+    right: 90px;
+    color: #ccc;
+    position: relative;
+    left: 0px;
+  }
+  .buy-footer-style {
+    top: -60px;
+  }
+  #share {
+    position: relative;
+    left: 130px;
+    top: -8px;
+  }
+  .prices1 p {
+    color: #ccc;
+  }
+  label span {
+    text-decoration: underline;
+  }
+  .items {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  hr {
+    position: relative;
+    top: -5px;
+    width: 260px;
+    right: 255px;
+  }
+  li {
+    color: grey;
+  }
+  
+  #description {
+    color: white;
+    border-bottom: 2px solid #00C3F9;
+    z-index: 99;
+  }
+  
+  #secondP {
+    position: relative;
+    left: 0px;
+  }
+  .prices1 #scndP {
+    position: relative;
+    right: 30px;
+  }
+  .prices1, .prices2 {
+    background-color: #231937;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  @media screen and (min-width: 912px) and (max-width: 1024px) {
+    .nft-video-controller {
+      width: 50%;
+    }
+    .nft-image-container {
+      width: 50%;
+      position: relative;
+      left: 70px;
+    }
+    .nft-info-container {
+      width: 50%;
+      position: relative;
+      left: 70px;
+    }
+    #angle-down {
+      left: 0px;
+    }
+    hr {
+      right: 53px;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 911px) {
+    .nft-video-controller {
+      width: 50%;
+    }
+    .nft-image-container {
+      width: 50%;
+    }
+    .nft-info-container {
+      width: 50%;
+    }
+    #angle-down {
+      left: 0px;
+    }
+    hr {
+      right: 15px;
+    }
+  }
+  @media screen and (max-width: 540px) and (max-width: 767px){
+    .nft-video-controller {
+      width: 0%;
+    }
+    .nft-image-container {
+      width: 0%;
+    }
+    .nft-info-container {
+      width: 100%;
+      position: relative;
+      right: 0px;
+      left: 50px;
+    }
+    .profile-section {
+      right: 80px;
+    }
+    #share {
+      left: 80px;
+    }
+    #angle-down {
+      left: 10px;
+    }
+    hr {
+      right: -25px;
+    }
+  }
+  @media screen and (min-width: 412px) and (max-width: 539px) { 
+    .nft-video-controller {
+      width: 0%;
+    }
+    .nft-image-container {
+      width: 0%;
+    }
+    .nft-info-container {
+      width: 100%;
+      position: relative;
+      left: -10px;
+    }
+    .profile-section {
+      right: 80px;
+    }
+    #share {
+      left: 80px;
+    }
+    #angle-down {
+      left: 10px;
+    }
+    hr {
+      right: -25px;
+    }
+  }
+  @media screen and (min-width: 281px) and (max-width: 411px) {
+    .nft-image-container {
+      width: 0%;
+    }
+    .nft-video-controller {
+      width: 0%;
+    }
+    .nft-info-container {
+      width: 100%;
+      position: relative;
+      right: 10px;
+      left: -10px;
+    }
+    .profile-section {
+      right: 80px;
+    }
+    #share {
+      left: 80px;
+    }
+    #angle-down {
+      left: 10px;
+    }
+    hr {
+      right: -25px;
+    }
+  }
+  @media screen and (max-width: 281px) {
+    .nft-video-controller {
+      width: 0%;
+    }
+    .nft-info-container {
+      width: 300px;
+      position: relative;
+      right: 10px;
+      left: 60px;
+    }
+    .nft-card-detail {
+      width: 280px;
+      position: relative;
+      right: 80px;
+    }
+  }
+  
