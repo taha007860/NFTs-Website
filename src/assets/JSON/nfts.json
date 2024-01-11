@@ -11,7 +11,9 @@
       "likes": 233,
       "profile": "profile-pic-v0bKfH-D.jpg",
       "price": 10,
-      "bid": 10
+      "bid": 10,
+      "imageSrc2": "image1.jpg",
+      "videoSrc2": "path/to/video1.mp4"
     },
     {
       "category": "Category name",
@@ -25,7 +27,9 @@
       "likes": 233,
       "profile": "profile-pic-v0bKfH-D.jpg",
       "price": 10,
-      "bid": 10
+      "bid": 10,
+      "imageSrc2": "image2.png",
+      "videoSrc2": "pomodoro.mp4"
     },{
         "category": "Category name",
         "title": "NFT Title Name 3",
@@ -38,7 +42,9 @@
         "likes": 233,
         "profile": "profile-pic-v0bKfH-D.jpg",
         "price": 10,
-        "bid": 10
+        "bid": 10,
+        "imageSrc2": "image3.jpg",
+        "videoSrc2": "path/to/video3.mp4"
       },
       {
         "category": "Category name",
@@ -52,7 +58,9 @@
         "likes": 233,
         "profile": "profile-pic-v0bKfH-D.jpg",
         "price": 10,
-        "bid": 10
+        "bid": 10,
+        "imageSrc2": "image4.jpg",
+        "videoSrc2": "path/to/video1.mp4"
       },
       {
         "category": "Category name",
@@ -66,7 +74,9 @@
         "likes": 233,
         "profile": "profile-pic-v0bKfH-D.jpg",
         "price": 10,
-        "bid": 10
+        "bid": 10,
+        "imageSrc2": "image5.jpg",
+        "videoSrc2": "WeatherApp.mp4"
       },
       {
         "category": "Category name",
@@ -80,7 +90,9 @@
         "likes": 233,
         "profile": "profile-pic-v0bKfH-D.jpg",
         "price": 10,
-        "bid": 10
+        "bid": 10,
+        "imageSrc2": "image6.jpg",
+        "videoSrc2": "path/to/video3.mp4"
       }
   ]
   

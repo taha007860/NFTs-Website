@@ -5,7 +5,7 @@ import heart from '../assets/images/love.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName, creator, artist, likes, profile, price, bid }) => {
+const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName, creator, artist, likes, profile, price, bid, imageSrc2, videoSrc2 }) => {
   const imageSrc = `/assets/${imageSrc1}`;
   const videoSrcPath = `/assets/${videoSrc}`;
   const profilePath = `/assets/${profile}`;
@@ -17,13 +17,13 @@ const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName,
       {contentType === 'video' ? (
           <div className="video-container">
             <video controls>
-              <source src={new URL(`../assets/videos/${videoSrc}`, import.meta.url).toString()} type="video/mp4" />
+              <source src={new URL(`../assets/videos/${videoSrc2}`, import.meta.url).toString()} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         ) : (
           <div className="image-container">
-            <img id="nft-image" src={new URL(`../assets/images/${imageSrc1}`, import.meta.url).toString()} alt="Image" />
+            <img id="nft-image" src={new URL(`../assets/images/${imageSrc2}`, import.meta.url).toString()} alt="Image" />
           </div>
         )}
       </div>
