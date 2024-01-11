@@ -250,7 +250,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-12px);
+        transform: translateX(-14px);
     }
     .search-bar input {
         width: 55px;
