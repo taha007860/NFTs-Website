@@ -175,7 +175,7 @@
     }
     .right-side {
         position: relative;
-        right: 20px;
+        right: 25px;
     }
   }
   @media screen and (min-width: 541px) and (max-width: 769px){
@@ -249,7 +249,7 @@
         right: 20px;
     }
   }
-  @media screen and (min-width: 361px) and (max-width: 541px) {
+  @media screen and (min-width: 376px) and (max-width: 541px) {
     .search-bar {
         min-width: 100px;
         position: relative;
@@ -317,6 +317,76 @@
     .right-side {
         position: relative;
         right: 20px;
+    }
+  }
+  @media screen and (min-width: 361px) and (max-width: 375px) {
+    .search-bar {
+        min-width: 100px;
+        position: relative;
+        left: 55px;
+    }
+    #angle-down {
+        position: relative;
+        right: 7px;
+        font-size: 0.5rem;
+        transform: translateX(-18px);
+    }
+    .search-bar input {
+        width: 55px;
+        position: relative;
+        left: 0px;
+    }
+    .search-bar input::placeholder {
+        font-size: 10px; 
+      }
+    .search-bar span {
+        font-size: 0.7rem;
+    }
+    .logo img {
+        position: relative;
+        right: 75px;
+        width: 20px;
+        height: 30px;
+    }
+    .sign-in {
+        padding: 0;
+        position: relative;
+        left: 50px;
+        min-width: 72px;
+        min-height: 30px;
+    }
+    .sign-in span {
+        position: relative;
+        left: 5px;
+    }
+    .home {
+        padding: 0;
+        position: relative;
+        left: 45px;
+        min-width: 72px;
+        min-height: 30px;
+    }
+    .home span {
+        position: relative;
+        left: 5px;
+    }
+    #bars {
+        position: relative;
+        left: 5px;
+    }
+    .language {
+        position: relative;
+        left: 40px;
+        min-width: 49px;
+    }
+    .rotated-icon {
+        font-size: 10px;
+        position: relative;
+        left: 5px;
+    }
+    .right-side {
+        position: relative;
+        right: 25px;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
