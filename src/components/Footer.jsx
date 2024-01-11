@@ -48,7 +48,7 @@ const Footer = () => {
             <span>
               <FontAwesomeIcon icon={faEnvelope} />
             </span>{" "}
-            <a id="email-info" href="mailto:{contactInfo.email}">Email: {contactInfo.email}</a>
+            Email: <a id="email-info" href="mailto:{contactInfo.email}">{contactInfo.email}</a>
           </p>
           <p>
             <span>

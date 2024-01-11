@@ -17,9 +17,10 @@
   }
   #google {
     text-decoration: none;
+    color: #00C3F9;
   }
   #google:hover {
-    color: #00C3F9;
+    color: blue;
   }
   
   .footer-column {
@@ -42,6 +43,10 @@
   #email-info {
     text-decoration: none;
     cursor: pointer;
+    color: #00C3F9;
+  }
+  #email-info:hover {
+    color: blue;
   }
   
   .quick-links,
