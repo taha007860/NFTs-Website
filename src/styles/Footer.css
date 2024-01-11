@@ -41,7 +41,7 @@
   }
   #email-info {
     text-decoration: none;
-    color: white;
+    cursor: pointer;
   }
   
   .quick-links,
