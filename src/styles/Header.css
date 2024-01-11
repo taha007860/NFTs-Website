@@ -528,5 +528,8 @@
         position: relative;
         right: 40px;
     }
+    .logo img {
+        width: 30px;
+    }
   }
   
