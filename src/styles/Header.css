@@ -189,7 +189,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-2px);
+        transform: translateX(-8px);
     }
     .search-bar input {
         width: 55px;
@@ -327,7 +327,7 @@
     }
     #angle-down {
         position: relative;
-        left: 2px;
+        left: 0px;
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -394,7 +394,7 @@
     }
     #angle-down {
         position: relative;
-        left: 2px;
+        left: 0px;
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -483,7 +483,7 @@
     }
     .logo img {
         position: relative;
-        right: 70px;
+        right: 67.5px;
         width: 10px;
         height: 20px;
     }
