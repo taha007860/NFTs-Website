@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header" style={{ position: 'fixed', top: 0, width: '100%', backgroundColor: '#231937', zIndex: 1000 }}>
       <div className="logo">
-        <img src={logo} alt="logo" width="60" height="40"/>
+        <img src={logo} alt="logo" width="80" height="60"/>
       </div>
       <div className="right-side">
       <div className="search-bar">
