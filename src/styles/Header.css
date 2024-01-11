@@ -319,7 +319,7 @@
         right: 20px;
     }
   }
-  @media screen and (min-width: 770px) and (max-width: 1024px) {
+  @media screen and (min-width: 770px) and (max-width: 1023px) {
     .search-bar {
         min-width: 100px;
         position: relative;
@@ -328,6 +328,7 @@
     #angle-down {
         position: relative;
         left: -26px;
+        right: 10px;
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -395,6 +396,7 @@
     #angle-down {
         position: relative;
         left: 0px;
+        right: 10px;
         font-size: 0.5rem;
     }
     .search-bar input {
