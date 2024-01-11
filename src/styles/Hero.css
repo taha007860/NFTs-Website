@@ -204,7 +204,7 @@
     }
     .scroll {
       position: relative;
-      top: 10px;
+      top: -10px;
       left: 38%;
     }
   }
@@ -226,7 +226,7 @@
     }
     .scroll {
       position: relative;
-      top: 10px;
+      top: -10px;
       left: 38%;
     }
   }
@@ -247,7 +247,7 @@
     }
     .scroll {
       position: relative;
-      top: 10px;
+      top: -10px;
       left: 38%;
     }
   }
@@ -268,7 +268,7 @@
     }
     .scroll {
       position: relative;
-      top: 10px;
+      top: -10px;
       left: 40%;
     }
     
@@ -295,7 +295,7 @@
     }
     .scroll {
       position: relative;
-      top: 10px;
+      top: -10px;
       left: 44%;
     }
     .custom-dots li.slick-active button:before {
