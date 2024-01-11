@@ -483,7 +483,7 @@
     }
     .logo img {
         position: relative;
-        right: 65px;
+        right: 75px;
         width: 10px;
         height: 20px;
     }
@@ -527,9 +527,6 @@
     .right-side {
         position: relative;
         right: 40px;
-    }
-    .logo img {
-        width: 30px;
     }
   }
   
