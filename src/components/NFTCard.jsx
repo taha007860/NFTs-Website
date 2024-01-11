@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName, creator, artist, likes, profile, price, bid }) => {
-  const imageSrc = `/src/assets/images/${imageSrc1}`;
-  const videoSrcPath = `/src/assets/videos/${videoSrc}`;
-  const profilePath = `/src/assets/images/${profile}`;
+  const imageSrc = "/assets/image1-Qn9QN7A4.jpg";
+  const videoSrcPath = `/assets/videos/${videoSrc}`;
+  const profilePath = `/assets/images/${profile}`;
   const linkTo = `/nft/${encodeURIComponent(title)}/${encodeURIComponent(imageSrc)}/${encodeURIComponent(videoSrcPath)}/${contentType}/${category}/${ownerName}/${creator}/${artist}/${likes}/${encodeURIComponent(profilePath)}/${price}/${bid}`;
   return (
     <Link to={linkTo} style={{textDecoration: 'none'}}>
