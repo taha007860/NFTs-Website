@@ -483,7 +483,7 @@
     }
     .logo img {
         position: relative;
-        right: 60px;
+        right: 65px;
         width: 10px;
         height: 20px;
     }
@@ -515,7 +515,7 @@
     }
     .language {
         position: relative;
-        left: 39px;
+        left: 36px;
         min-width: 49px;
     }
     .rotated-icon {
@@ -526,7 +526,7 @@
     }
     .right-side {
         position: relative;
-        right: 22.5px;
+        right: 25px;
     }
   }
   
