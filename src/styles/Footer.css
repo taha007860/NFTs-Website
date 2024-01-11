@@ -39,6 +39,10 @@
     width: 70px;
     height: 70px;
   }
+  #email-info {
+    text-decoration: none;
+    color: white;
+  }
   
   .quick-links,
   .legal,

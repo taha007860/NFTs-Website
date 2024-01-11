@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="footer-column">
         <div className="contact-info">
           <p>Contact</p>
-          <p>
+          <p id="email-info">
             <span>
               <FontAwesomeIcon icon={faEnvelope} />
             </span>{" "}
