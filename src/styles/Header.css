@@ -189,7 +189,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-8px);
+        transform: translateX(-6px);
     }
     .search-bar input {
         width: 55px;
@@ -319,7 +319,7 @@
         right: 20px;
     }
   }
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
+  @media screen and (min-width: 770px) and (max-width: 1024px) {
     .search-bar {
         min-width: 100px;
         position: relative;
@@ -457,7 +457,7 @@
     .search-bar {
         width: 35px;
         position: relative;
-        left: 55px;
+        left: 58px;
     }
     #angle-down {
         position: relative;
