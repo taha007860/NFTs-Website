@@ -133,7 +133,7 @@
     .search-bar input::placeholder {
         font-size: 10px; 
         position: relative;
-        right: 10px;
+        right: 0px;
       }
     .search-bar span {
         font-size: 0.7rem;
