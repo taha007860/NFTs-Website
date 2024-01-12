@@ -41,7 +41,7 @@
   
   .search-bar span {
     color: #fff;
-    margin-right: 10px;
+    margin-right: 15px;
   }
   
   .home span {
@@ -82,13 +82,12 @@
 .rotated-icon {
     transform: rotate(90deg);
     color: #00C3F9;
-    margin-right: 5px;
+    margin-right: 0px;
   }
   #angle-down {
     color: #00C3F9;
     position: relative;
-    left: 23px;
-    transform: translateX(3px);
+    left: 3px;
   }
   #circle {
     font-size: 0.7rem;
