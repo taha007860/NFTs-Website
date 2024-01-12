@@ -329,7 +329,7 @@
         position: relative;
         left: -26px;
         right: 10px;
-        transform: translateX(-5px);
+        transform: translateX(-2.5px);
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -398,7 +398,7 @@
         position: relative;
         left: 0px;
         right: 10px;
-        transform: translateX(-5px);
+        transform: translateX(-7px);
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -413,7 +413,7 @@
     .search-bar span {
         font-size: 0.7rem;
         position: relative;
-        left: 5px;
+        left: 2px;
     }
     .logo img {
         position: relative;
