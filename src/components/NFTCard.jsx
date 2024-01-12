@@ -37,7 +37,7 @@ const NFTCard = ({ category, title, contentType, videoSrc, imageSrc1, ownerName,
           <p id="owner">Owner</p>
           <span>{ownerName}</span>
         </div>
-        <p className={`price ${contentType === 'video' ? 'price-footer-style' : 'price-image'}`}>Price <span>$ {parseFloat(price).toFixed(2)} </span><FontAwesomeIcon icon={faAngleDown} id="angle-down"/></p>
+        <p className={`price ${contentType === 'video' ? 'price-footer-style' : 'price-image'}`}>Price <span>$ {parseFloat(price).toFixed(2)} </span><FontAwesomeIcon icon={faAngleDown} id="angle-down-card"/></p>
         <button className={`buy-now ${contentType === 'video' ? 'buy-footer-style' : 'buy-image'}`}>Buy Now</button>
       </div>
     </div>

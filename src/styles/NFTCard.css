@@ -163,7 +163,7 @@
     .buy-now {
       left: 90px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 25px;
     }
@@ -289,7 +289,7 @@
     .buy-now {
       left: 90px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 25px;
     }
@@ -377,7 +377,7 @@
       width: 148%;
       height: 147px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 15px;
     }
@@ -444,7 +444,7 @@
       width: 143%;
       height: 147px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 15px;
     }
@@ -511,7 +511,7 @@
       width: 130%;
       height: 147px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 15px;
     }
@@ -578,7 +578,7 @@
       width: 127%;
       height: 147px;
     }
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 15px;
     }
@@ -645,7 +645,7 @@
         width: 127%;
         height: 147px;
       }
-      #angle-down {
+      #angle-down-card {
         position: relative;
         left: 15px;
       }
@@ -767,7 +767,7 @@
     }
   }
   @media screen and (min-width: 361px) and (max-width: 376px) {
-    #angle-down {
+    #angle-down-card {
       position: relative;
       left: 15px;
     }
