@@ -550,7 +550,7 @@
   }
   @media screen and (max-width: 281px) {
     .search-bar {
-        width: 35px;
+        width: 15px;
         position: relative;
         left: 58px;
     }
