@@ -297,7 +297,7 @@ label {
     border: none;
     border-radius: 5px;
   }
-  #angle-down {
+  #angle-down-details {
     position: relative;
     left: 5px;
   }
@@ -315,7 +315,7 @@ label {
       position: relative;
       left: 70px;
     }
-    #angle-down {
+    #angle-down-details {
       left: 10px;
     }
     hr {
@@ -332,7 +332,7 @@ label {
     .nft-info-container {
       width: 50%;
     }
-    #angle-down {
+    #angle-down-details {
       left: 10px;
     }
     hr {
@@ -358,7 +358,7 @@ label {
     #share {
       left: 80px;
     }
-    #angle-down {
+    #angle-down-details {
       left: 20px;
     }
     hr {
@@ -383,7 +383,7 @@ label {
     #share {
       left: 80px;
     }
-    #angle-down {
+    #angle-down-details {
       left: 20px;
     }
     hr {
@@ -409,7 +409,7 @@ label {
     #share {
       left: 80px;
     }
-    #angle-down {
+    #angle-down-details {
       left: 20px;
     }
     hr {
@@ -431,7 +431,7 @@ label {
       position: relative;
       right: 80px;
     }
-    #angle-down {
+    #angle-down-details {
       left: 10px;
     }
   }
