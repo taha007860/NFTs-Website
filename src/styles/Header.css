@@ -278,7 +278,7 @@
     .search-bar input::placeholder {
         font-size: 10px; 
         position: relative;
-        right: 20px;
+        right: 10px;
       }
     .search-bar span {
         font-size: 0.7rem;
@@ -323,7 +323,8 @@
     .rotated-icon {
         font-size: 10px;
         position: relative;
-        left: 5px;
+        left: 10px;
+        z-index: 99;
     }
     .right-side {
         position: relative;
