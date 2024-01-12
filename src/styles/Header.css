@@ -123,7 +123,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-33px);
+        transform: translateX(-16px);
     }
     .search-bar input {
         width: 55px;
@@ -198,7 +198,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-11px);
+        transform: translateX(-1px);
     }
     .search-bar input {
         width: 55px;
@@ -349,7 +349,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-33px);
+        transform: translateX(-11px);
     }
     .search-bar input {
         width: 55px;
@@ -632,7 +632,7 @@
         position: relative;
         font-size: 0.3rem;
         margin-right: 10px;
-        transform: translateX(-40px);
+        transform: translateX(-20px);
     }
     .search-bar input {
         width: 20px;
