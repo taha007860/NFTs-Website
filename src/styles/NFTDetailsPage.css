@@ -297,10 +297,6 @@ label {
     border: none;
     border-radius: 5px;
   }
-  #angle-down {
-    position: relative;
-    left: 5px;
-  }
   @media screen and (min-width: 912px) and (max-width: 1024px) {
     .nft-video-controller {
       width: 50%;
