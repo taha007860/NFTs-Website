@@ -131,7 +131,7 @@
         left: 0px;
     }
     .search-bar input::placeholder {
-        font-size: 10px; 
+        font-size: 5px; 
         position: relative;
         right: 0px;
       }
