@@ -86,6 +86,8 @@
   }
   #angle-down {
     color: #00C3F9;
+    position: relative;
+    left: 3px;
   }
   #circle {
     font-size: 0.7rem;
