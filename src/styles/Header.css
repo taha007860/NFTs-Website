@@ -349,7 +349,7 @@
         position: relative;
         left: -26px;
         right: 10px;
-        transform: translateX(-2.5px);
+        transform: translateX(-6px);
         font-size: 0.5rem;
     }
     .search-bar input {
@@ -358,7 +358,7 @@
         left: 0px;
     }
     .search-bar input::placeholder {
-        font-size: 10px; 
+        font-size: 7px; 
         position: relative;
         right: 20px;
         z-index: 99;
