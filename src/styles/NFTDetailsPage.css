@@ -312,7 +312,7 @@ label {
       left: 70px;
     }
     #angle-down {
-      left: 0px;
+      left: 10px;
     }
     hr {
       right: 53px;
@@ -329,7 +329,7 @@ label {
       width: 50%;
     }
     #angle-down {
-      left: 0px;
+      left: 10px;
     }
     hr {
       right: 15px;
@@ -355,7 +355,7 @@ label {
       left: 80px;
     }
     #angle-down {
-      left: 10px;
+      left: 20px;
     }
     hr {
       right: -25px;
@@ -380,7 +380,7 @@ label {
       left: 80px;
     }
     #angle-down {
-      left: 10px;
+      left: 20px;
     }
     hr {
       right: -25px;
@@ -406,7 +406,7 @@ label {
       left: 80px;
     }
     #angle-down {
-      left: 10px;
+      left: 20px;
     }
     hr {
       right: -25px;
@@ -426,6 +426,9 @@ label {
       width: 280px;
       position: relative;
       right: 80px;
+    }
+    #angle-down {
+      left: 10px;
     }
   }
   
