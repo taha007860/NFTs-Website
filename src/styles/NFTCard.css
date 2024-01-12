@@ -138,6 +138,9 @@
     top: -40px;
     color: white;
   }
+  #angle-down-card {
+    color: #00C3F9;
+  }
   @media screen and (max-width: 281px) {
     .card-footer span {
       right: 30px;
@@ -166,7 +169,6 @@
     #angle-down-card {
       position: relative;
       left: 25px;
-      color: #00C3F9;
     }
     #nft-image {
       position: relative;
