@@ -137,6 +137,8 @@
       }
     .search-bar span {
         font-size: 0.7rem;
+        position: relative;
+        left: 5px;
     }
     .logo img {
         position: relative;
