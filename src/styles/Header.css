@@ -410,7 +410,76 @@
         margin-right: 10px;
     }
   }
-  @media screen and (min-width: 1024px) and (max-width: 1279px) {
+  @media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .search-bar {
+        min-width: 100px;
+        position: relative;
+        left: 55px;
+    }
+    #angle-down {
+        position: relative;
+        left: 0px;
+        right: 10px;
+        transform: translateX(-10px);
+        font-size: 0.5rem;
+    }
+    .search-bar input {
+        width: 110px;
+        position: relative;
+        left: 0px;
+    }
+    .search-bar input::placeholder {
+        font-size: 10px;
+        position: relative;
+      }
+    .search-bar span {
+        font-size: 0.7rem;
+        position: relative;
+        left: 2px;
+    }
+    .logo img {
+        position: relative;
+        right: 75px;
+        width: 20px;
+        height: 30px;
+    }
+    .sign-in {
+        padding: 0;
+        position: relative;
+        left: 50px;
+        min-width: 72px;
+        min-height: 30px;
+    }
+    .sign-in span {
+        position: relative;
+        left: 5px;
+    }
+    .home {
+        padding: 0;
+        position: relative;
+        left: 45px;
+        min-width: 72px;
+        min-height: 30px;
+    }
+    .home span {
+        position: relative;
+        left: 5px;
+    }
+    #bars {
+        position: relative;
+        left: 5px;
+    }
+    .language {
+        position: relative;
+        left: 40px;
+        min-width: 49px;
+    }
+    .rotated-icon {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+  }
+  @media screen and (min-width: 1025px) and (max-width: 1279px) {
     .search-bar {
         min-width: 100px;
         position: relative;
