@@ -207,14 +207,14 @@
         left: 0px;
     }
     .search-bar input::placeholder {
-        font-size: 7px; 
+        font-size: 5px; 
         position: relative;
         right: 10px;
       }
     .search-bar span {
         font-size: 0.7rem;
         position: relative;
-        left: 3px;
+        left: 6px;
     }
     .logo img {
         position: relative;
