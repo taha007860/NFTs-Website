@@ -349,7 +349,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-23px);
+        transform: translateX(-33px);
     }
     .search-bar input {
         width: 55px;

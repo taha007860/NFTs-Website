@@ -772,7 +772,7 @@
   @media screen and (min-width: 361px) and (max-width: 376px) {
     #angle-down-card {
       position: relative;
-      left: 15px;
+      left: 5px;
     }
     .buy-now {
       left: 100px;
