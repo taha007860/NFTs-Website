@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+#angle-down-details{
+  color: #00C3F9;
+}
 .nft-details-container {
     display: flex;
     background-color: #231937;
@@ -277,7 +280,7 @@ label {
   }
   .prices1 #scndP {
     position: relative;
-    right: 30px;
+    right: 38px;
   }
   .prices1, .prices2 {
     background-color: #231937;

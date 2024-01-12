@@ -123,7 +123,7 @@
         position: relative;
         right: 7px;
         font-size: 0.5rem;
-        transform: translateX(-24px);
+        transform: translateX(-33px);
     }
     .search-bar input {
         width: 55px;
@@ -422,7 +422,7 @@
     }
     #angle-down {
         position: relative;
-        left: -6px;
+        left: 5px;
         right: 10px;
         font-size: 0.5rem;
     }
@@ -550,7 +550,7 @@
     }
     .rotated-icon {
         font-size: 10px;
-        margin-right: 5px;
+        z-index: 99;
     }
   }
   @media screen and (min-width: 1025px) {
@@ -632,7 +632,7 @@
         position: relative;
         font-size: 0.3rem;
         margin-right: 10px;
-        transform: translateX(-36px);
+        transform: translateX(-40px);
     }
     .search-bar input {
         width: 20px;
