@@ -88,6 +88,7 @@
     color: #00C3F9;
     position: relative;
     left: 23px;
+    transform: translateX(3px);
   }
   #circle {
     font-size: 0.7rem;
