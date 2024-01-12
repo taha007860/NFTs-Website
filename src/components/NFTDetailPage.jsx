@@ -79,7 +79,7 @@ const NFTDetailsPage = () => {
           <div class="prices2">
             <p className="price-detail">
               Price <span>$ {parseFloat(price).toFixed(2)} </span>
-              <FontAwesomeIcon icon={faAngleDown} id="angle-down" />
+              <FontAwesomeIcon icon={faAngleDown} id="angle-down-details" />
             </p>
             <p className="price-detail" id="secondP">
               Price <span>$ {parseFloat(bid).toFixed(2)} </span>
