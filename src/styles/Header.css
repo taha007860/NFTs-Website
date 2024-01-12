@@ -479,7 +479,7 @@
         margin-right: 5px;
     }
   }
-  @media screen and (min-width: 1025px) and (max-width: 1279px) {
+  @media screen and (min-width: 1025px) {
     .search-bar {
         min-width: 100px;
         position: relative;
