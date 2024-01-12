@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/NFTCardVideo.css";
+import "../styles/NFTCard.css";
 import thumbs from '../assets/images/thumbs.png'
 import heart from '../assets/images/love.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
