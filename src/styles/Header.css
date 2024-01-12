@@ -84,13 +84,13 @@
     color: #00C3F9;
     margin-right: 0px;
     position: relative;
-    left: 5px;
+    left: 15px;
   }
   #angle-down {
     color: #00C3F9;
     position: relative;
     left: 3px;
-    transform: translateX(-5px);
+    transform: translateX(-15px);
   }
   #circle {
     font-size: 0.7rem;
