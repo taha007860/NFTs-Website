@@ -21,7 +21,6 @@ Check out the live demo of the project hosted on Vercel: [Lii Platform NFT Marke
   - [Design](#design)
   - [Data Loading](#data-loading)
 - [Deliverables](#deliverables)
-- [Screenshots](#screenshots)
 
 ## Scope
 
@@ -57,7 +56,7 @@ The development was carried out using ReactJS, ensuring a modern and efficient w
 
 ### Design:
 
-I adhered to the provided screenshots for inspiration, focusing on the main layout and branding. While detailed design was not mandatory, I ensured the inclusion of basic layout and branding elements for a polished appearance.
+I ensured the inclusion of basic layout and branding elements for a polished appearance.
 
 ### Data Loading:
 
@@ -67,22 +66,5 @@ JSON files were utilized to load data for various components such as the Slider,
 
 The project is hosted on Vercel. To replicate the development environment, please refer to the GitHub repository.
 
-## Screenshots
-
-**Hero Section**
-
-[Insert Hero Section Screenshot]
-
-**Explore NFT**
-
-[Insert Explore NFT Screenshot]
-
-**NFT Page**
-
-[Insert NFT Page Screenshot]
-
-**Footer**
-
-[Insert Footer Screenshot]
-
-Best of luck with the assessment! Feel free to explore the live demo and review the documentation provided for clarity.
+## Watch Demo:
+https://github.com/taha007860/Contact-Book/assets/96583299/dc714ecf-2c59-4641-9f70-098f95f00b63
