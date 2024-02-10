@@ -1,6 +1,6 @@
 # Lii Platform - NFT Marketplace
 
-Welcome to the Lii Platform, a small web-based NFT Marketplace built using ReactJS.
+Welcome to the Lii Platform, a small web based NFT Marketplace built using ReactJS.
 
 ## Overview
 
